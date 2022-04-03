@@ -1,0 +1,204 @@
+<StressedOut>		
+ <append xpath="/ui_display_info/item_display">		
+		
+		<item_display_info display_type="foodCureStressed" display_group="groupConsumables">
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Stout" display_group="groupConsumables">
+			<display_entry name="dHealthLoss" title_key="statHealthLoss" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Pilsner" display_group="groupConsumables">
+			<display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Porter" display_group="groupConsumables">
+			<display_entry name="dHypothermalResist" title_key="statHypothermalResist"/>
+			<display_entry name="dMaxHealthBonus" title_key="statMaxHealthBonus" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="PaleAle" display_group="groupConsumables">
+			<display_entry name="dEntityDamage" title_key="statEntityDamageRanged" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dExDamageEntity" display_type="Percent" title_key="statEntityDamageExplosion" display_leading_plus="true"/>
+			<display_entry name="dExDamageBlock" display_type="Percent" title_key="statBlockDamageExplosion" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Lager" display_group="groupConsumables">
+			<display_entry name="dBartering" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="IPA" display_group="groupConsumables">
+			<display_entry name="dHyperthermalResist" title_key="statHyperthermalResist" display_leading_plus="true"/>
+			<display_entry name="dMaxHealthBonus" title_key="statMaxHealthBonus" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="PumpkinAle" display_group="groupConsumables">
+			<display_entry name="dMaxHealthBonus" title_key="statMaxHealthBonus" display_leading_plus="true"/>
+			<display_entry name="dDiseaseResist" title_key="statDiseaseResist" display_type="Percent"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="WheatAle" display_group="groupConsumables">
+			<display_entry name="dLootGamestageFlat" title_key="statLootGamestage" display_leading_plus="true"/>
+			<display_entry name="dLootGamestagePerc" title_key="statLootGamestage" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Whiskey" display_group="groupConsumables">
+			<display_entry name="dStrength" title_key="statShowStrength" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Vodka" display_group="groupConsumables">
+			<display_entry name="dFortitude" title_key="statShowFortitude" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Rum" display_group="groupConsumables">
+			<display_entry name="dAgility" title_key="statShowAgility" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Tequila" display_group="groupConsumables">
+			<display_entry name="dPerception" title_key="statShowPerception" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Gin" display_group="groupConsumables">
+			<display_entry name="dIntellect" title_key="statShowIntellect" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Sake" display_group="groupConsumables">
+			<display_entry name="dLootGamestageFlat" title_key="statLootGamestage" display_leading_plus="true"/>
+			<display_entry name="dLootGamestagePerc" title_key="statLootGamestage" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Brandy" display_group="groupConsumables">
+			<display_entry name="dCraftingTime" title_key="statCraftingTime" display_type="Percent" display_leading_plus="true" negative_preferred="false"/>
+			<display_entry name="dCraftingTime" title_key="statCraftingTimeForge" display_type="Percent" display_leading_plus="true" negative_preferred="false"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Gold Rush" display_group="groupConsumables">
+			<display_entry name="dCureInfection" title_key="statCureInfection" display_type="Percent"/>
+			<display_entry name="dStopsWeakness" title_key="statStopsWeakness" display_type="Percent"/>
+			<display_entry name="dStopsConcussion" title_key="statStopsConcussion" display_type="Percent"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Irish Coffee" display_group="groupConsumables">
+			<display_entry name="dHarvestMining" title_key="statHarvestMining" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dHypothermalResist" title_key="statHypothermalResist"/>
+			<display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="BlackJack" display_group="groupConsumables">
+			<display_entry name="dEntityDamage" title_key="All Damage" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="GinJuice" display_group="groupConsumables">
+			<display_entry name="dTreasureBlocksPerReduction" title_key="Treasure Hunter" display_leading_plus="true" negative_preferred="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="NewVegas" display_group="groupConsumables">
+			<display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent"/>
+			<display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="DayWalker" display_group="groupConsumables">
+			<display_entry name="dCarryCapacityDay" title_key="Daytime Carry Capacity" display_leading_plus="true"/>
+			<display_entry name="dHyperthermalResist" title_key="statHyperthermalResist" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Zombie" display_group="groupConsumables">
+			<display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent"/>
+			<display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="JumpStrength" title_key="statJumpStrength" display_type="Percent"/>
+			<display_entry name="dNightVision" title_key="Night Vision" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="DoubleTap" display_group="groupConsumables">
+			<display_entry name="dHarvestCrop" title_key="Crop Harvest" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="LongIsland" display_group="groupConsumables">
+			<display_entry name="dBlockDamage" title_key="statBlockDamage"/>
+			<display_entry name="dAttacksPerMinute" title_key="statAttacksPerMinute" display_type="Percent"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dHangoverRisk" title_key="Hangover Risk" display_type="Percent" negative_preferred="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="Sativa" display_group="groupConsumables">
+			<display_entry name="dCraftingTime" title_key="statCraftingTime" display_type="Percent" display_leading_plus="true" negative_preferred="false"/>
+			<display_entry name="dCraftingTime" title_key="statCraftingTimeForge" display_type="Percent" display_leading_plus="true" negative_preferred="false"/>
+			<display_entry name="dCureStress" title_key="Relieve Stress" display_type="Percent"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+	</append>	
+</StressedOut>

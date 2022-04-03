@@ -1,0 +1,372 @@
+<StressedOut>
+<append xpath="/recipes" >
+
+<recipe name="Cigar" count="5" always_unlocked="true">
+	<ingredient name="Tobacco" count="3"/>
+	<ingredient name="resourcePaper" count="2"/>
+	<ingredient name="resourceYuccaFibers" count="50"/>
+</recipe>
+
+<recipe name="Cigarette" count="10" always_unlocked="true">
+	<ingredient name="Tobacco" count="3"/>
+	<ingredient name="resourcePaper" count="1"/>
+</recipe>
+
+<recipe name="Indica Joint" count="1" always_unlocked="true">
+	<ingredient name="Indica Bud" count="3"/>
+	<ingredient name="resourcePaper" count="1"/>
+</recipe>
+
+<recipe name="Sativa Joint" count="1" always_unlocked="true">
+	<ingredient name="Sativa Bud" count="3"/>
+	<ingredient name="resourcePaper" count="1"/>
+</recipe>
+
+<recipe name="A Nice Relaxing Book" count="1" always_unlocked="true">
+	<ingredient name="resourcePaper" count="500"/>
+	<ingredient name="resourceLeather" count="5"/>
+</recipe>
+
+<recipe name="Yeast" count="50" craft_time="1000" craft_area="chemistryStation" always_unlocked="true">
+	<ingredient name="drinkJarRiverWater" count="5"/>
+	<ingredient name="Barley" count="10"/>
+</recipe>
+
+<recipe name="Flour" count="50" craft_time="1000" craft_area="chemistryStation" always_unlocked="true">
+	<ingredient name="drinkJarRiverWater" count="5"/>
+	<ingredient name="Wheat" count="10"/>
+</recipe>
+
+<recipe name="Rice" count="10" craft_time="180" craft_area="campfire" always_unlocked="true">
+	<ingredient name="Wheat" count="10"/>
+</recipe>
+
+<recipe name="Wheat Sprout" count="1" craft_time="5" always_unlocked="true" tags="learnable,perkBrewmaster">
+	<ingredient name="Wheat" count="5"/>
+</recipe>
+
+<recipe name="Agave Sprout" count="1" craft_time="5" always_unlocked="true" tags="learnable,perkBrewmaster">
+	<ingredient name="Agave" count="5"/>
+</recipe>
+
+<recipe name="Barley Sprout" count="1" craft_time="5" always_unlocked="true" tags="learnable,perkBrewmaster">
+	<ingredient name="Barley" count="5"/>
+</recipe>
+
+<recipe name="Sugar Cane Sprout" count="1" craft_time="5" always_unlocked="true" tags="learnable,perkBrewmaster">
+	<ingredient name="Sugar Cane" count="5"/>
+</recipe>
+
+<recipe name="Cocoa Sprout" count="1" craft_time="5" always_unlocked="true">
+	<ingredient name="Cocoa" count="5"/>
+</recipe>
+
+<recipe name="Tobacco Sprout" count="1" craft_time="5" always_unlocked="true">
+	<ingredient name="Tobacco" count="5"/>
+</recipe>
+
+<recipe name="Indica Sprout" count="1" craft_time="5" always_unlocked="true">
+	<ingredient name="Indica Bud" count="5"/>
+</recipe>
+
+<recipe name="Sativa Sprout" count="1" craft_time="5" always_unlocked="true">
+	<ingredient name="Sativa Bud" count="5"/>
+</recipe>
+
+ <recipe name="Brewing Station" count="1" craft_area="workbench" craft_time="1200" tags="learnable,perkBrewmaster">
+	<ingredient name="toolBeaker" count="1"/>
+	<ingredient name="resourceMilitaryFiber" count="10"/>
+	<ingredient name="toolCookingPot" count="3"/>
+	<ingredient name="resourceScrapBrass" count="200"/>
+	<ingredient name="resourceForgedIron" count="100"/>
+</recipe>	
+
+<recipe name="Distiller" count="1" craft_area="workbench" craft_time="1200" tags="learnable,perkBrewmaster"> 
+	<ingredient name="campfire" count="1"/>
+	<ingredient name="resourceScrapBrass" count="500"/>
+	<ingredient name="resourceWood" count="200"/>
+</recipe>
+
+<recipe name="Stout" count="20" craft_time="1000" craft_area="Brewing Station" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBoiledWater" count="20"/>
+	<ingredient name="Barley" count="14"/>
+	<ingredient name="resourceCropHopsFlower" count="7"/>
+	<ingredient name="Yeast" count="15"/>
+</recipe>
+
+<recipe name="Pilsner" count="20" craft_time="1000" craft_area="Brewing Station" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBoiledWater" count="20"/>
+	<ingredient name="Barley" count="20"/>
+	<ingredient name="resourceCropHopsFlower" count="8"/>
+	<ingredient name="Yeast" count="12"/>
+</recipe>
+
+<recipe name="Porter" count="20" craft_time="1000" craft_area="Brewing Station" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBoiledWater" count="20"/>
+	<ingredient name="Barley" count="12"/>
+	<ingredient name="resourceCropHopsFlower" count="8"/>
+	<ingredient name="Yeast" count="15"/>
+</recipe>
+
+<recipe name="Pale Ale" count="20" craft_time="1000" craft_area="Brewing Station" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBoiledWater" count="20"/>
+	<ingredient name="Barley" count="12"/>
+	<ingredient name="resourceCropHopsFlower" count="15"/>
+	<ingredient name="Yeast" count="10"/>
+</recipe>
+
+<recipe name="Lager" count="20" craft_time="1000" craft_area="Brewing Station" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBoiledWater" count="20"/>
+	<ingredient name="Barley" count="17"/>
+	<ingredient name="resourceCropHopsFlower" count="8"/>
+	<ingredient name="Yeast" count="12"/>
+</recipe>
+
+<recipe name="Wheat Ale" count="20" craft_time="1000" craft_area="Brewing Station" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBoiledWater" count="20"/>
+	<ingredient name="Barley" count="10"/>
+	<ingredient name="resourceCropHopsFlower" count="5"/>
+	<ingredient name="Yeast" count="10"/>
+	<ingredient name="Wheat" count="20"/>
+</recipe>
+
+<recipe name="Pumpkin Ale" count="20" craft_time="1000" craft_area="Brewing Station" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBoiledWater" count="20"/>
+	<ingredient name="Barley" count="5"/>
+	<ingredient name="resourceCropHopsFlower" count="5"/>
+	<ingredient name="Yeast" count="15"/>
+	<ingredient name="foodCropPumpkin" count="25"/>
+</recipe>
+
+<recipe name="IPA" count="20" craft_time="1000" craft_area="Brewing Station" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBoiledWater" count="20"/>
+	<ingredient name="Barley" count="10"/>
+	<ingredient name="resourceCropHopsFlower" count="20"/>
+	<ingredient name="Yeast" count="10"/>
+</recipe>
+
+<recipe name="Whiskey" count="5" craft_time="1000" craft_area="Distiller" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBeer" count="10"/>
+	<ingredient name="Barley" count="50"/>
+</recipe>
+
+<recipe name="Vodka" count="5" craft_time="1000" craft_area="Distiller" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBeer" count="10"/>
+	<ingredient name="foodCropPotato" count="50"/>
+</recipe>
+
+<recipe name="Gin" count="5" craft_time="1000" craft_area="Distiller" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBeer" count="10"/>
+	<ingredient name="foodCropBlueberries" count="50"/>
+</recipe>
+
+<recipe name="Rum" count="5" craft_time="1000" craft_area="Distiller" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBeer" count="10"/>
+	<ingredient name="Sugar Cane" count="50"/>
+</recipe>
+
+<recipe name="Tequila" count="5" craft_time="1000" craft_area="Distiller" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBeer" count="10"/>
+	<ingredient name="Agave" count="50"/>
+</recipe>
+
+<recipe name="Sake" count="5" craft_time="1000" craft_area="Distiller" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBeer" count="10"/>
+	<ingredient name="Rice" count="50"/>
+</recipe>
+
+<recipe name="Brandy" count="5" craft_time="1000" craft_area="Distiller" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBeer" count="10"/>
+	<ingredient name="foodCropBlueberries" count="50"/>
+</recipe>
+
+<recipe name="Blueberry Juice" count="1" craft_area="campfire" always_unlocked="true">
+	<ingredient name="foodCropBlueberries" count="2"/>
+	<ingredient name="drinkJarEmpty" count="1"/>
+</recipe>
+
+<recipe name="Gold Rush" count="10" craft_time="300" craft_exp_gain="5000" craft_area="campfire" tags="learnable,perkBrewmaster">
+	<ingredient name="foodHoney" count="5"/>
+	<ingredient name="drinkJarYuccaJuice" count="3"/>
+	<ingredient name="Whiskey" count="1"/>
+</recipe>
+
+<recipe name="Irish Coffee" count="10" craft_time="300" craft_exp_gain="5000" craft_area="campfire" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarCoffee" count="10"/>
+	<ingredient name="Whiskey" count="1"/>
+</recipe>
+
+<recipe name="BlackJack" count="10" craft_time="300" craft_exp_gain="5000" craft_area="campfire" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarBlackStrapCoffee" count="5"/>
+	<ingredient name="Brandy" count="1"/>
+</recipe>
+
+<recipe name="Gin and Juice" count="10" craft_time="300" craft_exp_gain="5000" craft_area="campfire" tags="learnable,perkBrewmaster">
+	<ingredient name="Blueberry Juice" count="5"/>
+	<ingredient name="drinkJarYuccaJuice" count="3"/>
+	<ingredient name="Gin" count="1"/>
+</recipe>
+
+<recipe name="New Vegas Bomb" count="10" craft_time="300" craft_exp_gain="5000" craft_area="campfire" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkCanMegaCrush" count="4"/>
+	<ingredient name="drinkJarRedTea" count="2"/>
+	<ingredient name="foodCropBlueberries" count="5"/>
+	<ingredient name="Vodka" count="1"/>
+</recipe>
+
+<recipe name="Day Walker" count="10" craft_time="300" craft_exp_gain="5000" craft_area="campfire" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkJarGoldenRodTea" count="10"/>
+	<ingredient name="Vodka" count="1"/>
+</recipe>
+
+<recipe name="Zombie" count="10" craft_time="300" craft_exp_gain="5000" craft_area="campfire" tags="learnable,perkBrewmaster">
+	<ingredient name="drinkYuccaJuiceSmoothie" count="3"/>
+	<ingredient name="Blueberry Juice" count="4"/>
+	<ingredient name="Rum" count="1"/>
+</recipe>
+
+<recipe name="Double Tap Margarita" count="10" craft_time="300" craft_exp_gain="5000" craft_area="campfire" tags="learnable,perkBrewmaster">
+	<ingredient name="Sugar Cane" count="1"/>
+	<ingredient name="Agave" count="1"/>
+	<ingredient name="Blueberry Juice" count="5"/>
+	<ingredient name="Tequila" count="1"/>
+</recipe>
+
+<recipe name="Blueberry Long Island Iced Tea" count="15" craft_time="300" craft_exp_gain="5000" craft_area="campfire" tags="learnable,perkBrewmaster">
+		<ingredient name="Rum" count="1"/>
+		<ingredient name="Vodka" count="1"/>
+		<ingredient name="Gin" count="1"/>
+		<ingredient name="Tequila" count="1"/>
+		<ingredient name="foodCropBlueberries" count="5"/>
+</recipe>
+
+<recipe name="Honey Ham" count="1" craft_time="30" craft_area="campfire" tags="learnable,perkMasterChef">
+		<ingredient name="Raw Pork" count="5"/>
+		<ingredient name="foodHoney" count="1"/>
+</recipe>
+
+<recipe name="Pork Chops" count="3" craft_time="80" craft_area="campfire" craft_tool="toolCookingGrill" tags="learnable,perkMasterChef">
+		<ingredient name="Raw Pork" count="5"/>
+</recipe>
+
+<recipe name="Sushi" count="2" craft_time="40" craft_area="campfire" tags="learnable,perkMasterChef">
+		<ingredient name="Raw Fish" count="1"/>
+		<ingredient name="Rice" count="4"/>
+</recipe>
+
+<recipe name="Blueberry Muffins" count="1" craft_time="40" craft_area="campfire" tags="learnable,perkMasterChef">
+		<ingredient name="foodCropBlueberries" count="5"/>
+		<ingredient name="Flour" count="1"/>
+</recipe>
+
+<recipe name="Smoked Game" count="1" craft_time="60" craft_area="campfire" tags="learnable,perkMasterChef">
+		<ingredient name="Raw Game Meat" count="3"/>
+</recipe>
+
+<recipe name="Chicken Noodles" count="5" craft_time="120" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+		<ingredient name="Raw Chicken" count="5"/>
+		<ingredient name="foodEgg" count="2"/>
+		<ingredient name="Flour" count="2"/>
+		<ingredient name="drinkJarBoiledWater" count="5"/>
+</recipe>
+
+<recipe name="Rabbit Stew" count="5" craft_time="30" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+		<ingredient name="Raw Rabbit Meat" count="5"/>
+		<ingredient name="foodCropPotato" count="3"/>
+		<ingredient name="drinkJarBoiledWater" count="5"/>
+</recipe>
+
+<recipe name="Bobcat Burgers" count="4" craft_time="75" craft_area="campfire" craft_tool="toolCookingGrill" tags="learnable,perkMasterChef">
+		<ingredient name="Raw Game Meat" count="10"/>
+		<ingredient name="foodShamSandwich" count="4"/>
+</recipe>
+
+<recipe name="Bear Chili" count="4" craft_time="80" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+		<ingredient name="Raw Game Meat" count="10"/>
+		<ingredient name="foodCanChili" count="4"/>
+		<ingredient name="drinkJarBoiledWater" count="5"/>
+</recipe>
+
+<recipe name="foodCanChicken" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot" always_unlocked="true">
+		<ingredient name="Raw Chicken" count="5"/>
+		<ingredient name="drinkCanEmpty" count="1"/>
+</recipe>
+
+<recipe name="foodCanSalmon" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot" always_unlocked="true">
+		<ingredient name="Raw Fish" count="2"/>
+		<ingredient name="drinkCanEmpty" count="1"/>
+</recipe>
+
+<recipe name="foodCanBeef" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot" always_unlocked="true">
+		<ingredient name="foodRawMeat" count="5"/>
+		<ingredient name="drinkCanEmpty" count="1"/>
+</recipe>
+
+<recipe name="drugAtomJunkies" count="1" craft_time="45" craft_area="campfire" craft_tool="toolBeaker" always_unlocked="true">
+		<ingredient name="Cocoa" count="3"/>
+		<ingredient name="Sugar Cane" count="2"/>
+		<ingredient name="foodCropBlueberries" count="1"/>
+</recipe>
+
+<recipe name="drugCovertCats" count="1" craft_time="45" craft_area="campfire" craft_tool="toolBeaker" always_unlocked="true">
+		<ingredient name="Sugar Cane" count="3"/>
+		<ingredient name="foodCropBlueberries" count="2"/>
+</recipe>
+
+<recipe name="drugEyeKandy" count="1" craft_time="45" craft_area="campfire" craft_tool="toolBeaker" always_unlocked="true">
+		<ingredient name="Sugar Cane" count="5"/>
+		<ingredient name="foodCropBlueberries" count="2"/>
+</recipe>
+
+<recipe name="drugHackers" count="1" craft_time="45" craft_area="campfire" craft_tool="toolBeaker" always_unlocked="true">
+		<ingredient name="Cocoa" count="3"/>
+		<ingredient name="Rice" count="1"/>
+		<ingredient name="resourceCropCoffeeBeans" count="1"/>
+</recipe>
+
+<recipe name="drugHealthBar" count="1" craft_time="45" craft_area="campfire" craft_tool="toolBeaker" always_unlocked="true">
+		<ingredient name="Cocoa" count="3"/>
+		<ingredient name="Rice" count="2"/>
+</recipe>
+
+<recipe name="drugJailBreakers" count="1" craft_time="45" craft_area="campfire" craft_tool="toolBeaker" always_unlocked="true">
+		<ingredient name="Cocoa" count="3"/>
+		<ingredient name="foodCropBlueberries" count="4"/>
+</recipe>
+
+<recipe name="drugNerdTats" count="1" craft_time="45" craft_area="campfire" craft_tool="toolBeaker" always_unlocked="true">
+		<ingredient name="Sugar Cane" count="2"/>
+		<ingredient name="foodCropBlueberries" count="4"/>
+</recipe>
+
+<recipe name="drugOhShitzDrops" count="1" craft_time="45" craft_area="campfire" craft_tool="toolBeaker" always_unlocked="true">
+		<ingredient name="Sugar Cane" count="2"/>
+		<ingredient name="foodCropBlueberries" count="3"/>
+		<ingredient name="resourceTestosteroneExtract" count="1"/>
+</recipe>
+
+<recipe name="drugRockBusters" count="1" craft_time="45" craft_area="campfire" craft_tool="toolBeaker" always_unlocked="true">
+		<ingredient name="Cocoa" count="4"/>
+		<ingredient name="resourceCropCoffeeBeans" count="3"/>
+</recipe>
+
+<recipe name="drugSkullCrushers" count="1" craft_time="45" craft_area="campfire" craft_tool="toolBeaker" always_unlocked="true">
+		<ingredient name="Cocoa" count="3"/>
+		<ingredient name="Sugar Cane" count="2"/>
+		<ingredient name="resourceTestosteroneExtract" count="1"/>
+</recipe>
+
+<recipe name="drugSugarButts" count="1" craft_time="45" craft_area="campfire" craft_tool="toolBeaker" always_unlocked="true">
+		<ingredient name="Sugar Cane" count="7"/>
+		<ingredient name="foodCropBlueberries" count="2"/>
+		<ingredient name="resourceCropCoffeeBeans" count="1"/>
+</recipe>
+
+<recipe name="Polymer Fishing Net" count="1" craft_time="2" craft_area="workbench" always_unlocked="true">
+		<ingredient name="resourceScrapPolymers" count="15"/>
+</recipe>
+
+	
+</append>
+
+</StressedOut>

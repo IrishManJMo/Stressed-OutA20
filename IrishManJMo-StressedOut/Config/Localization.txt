@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+perkBrewmaster1Desc,progression,perk Int,,,Grain Farmer,
+perkBrewmaster2Desc,progression,perk Int,,,Microbrewing,
+perkBrewmaster3Desc,progression,perk Int,,,Distiller,
+perkBrewmaster4Desc,progression,perk Int,,,Mixologist,

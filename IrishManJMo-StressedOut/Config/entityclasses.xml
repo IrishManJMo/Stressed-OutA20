@@ -1,0 +1,15 @@
+<StressedOut>
+
+	<append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/effect_group[@name='Base Effects']"> <!--Borrowing from bdubyah zAlert mod-->
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="zombieAlertAOE2"/>
+		</append>
+		
+		<set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='foodRawMeat']/@name">Raw Game Meat</set>
+		<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@event='Harvest' and @name='foodRawMeat']/@name">Raw Game Meat</set>
+		<set xpath="/entity_classes/entity_class[@name='animalMountainLion']/drop[@event='Harvest' and @name='foodRawMeat']/@name">Raw Game Meat</set>
+		<set xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@event='Harvest' and @name='foodRawMeat']/@name">Raw Rabbit Meat</set>
+		<set xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@event='Harvest' and @name='foodRawMeat']/@name">Raw Chicken</set>
+		<set xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@event='Harvest' and @name='foodRawMeat']/@name">Raw Pork</set>
+		<set xpath="/entity_classes/entity_class[@name='animalBossGrace']/drop[@event='Harvest' and @name='foodRawMeat']/@name">Raw Pork</set>
+		
+</StressedOut>

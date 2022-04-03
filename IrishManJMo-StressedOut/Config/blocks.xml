@@ -1,0 +1,462 @@
+<StressedOut>
+<insertBefore xpath="/blocks/block[@name='decoPumpkinJackOLantern']">
+
+	<block name="Tobacco Sprout">
+		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="plantedPotato3Harvest"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+		<property name="PlantGrowing.Next" value="Tobacco Growing"/>
+		<property name="Group" value="Food/Cooking"/>
+		<drop event="Destroy" name="Tobacco Sprout" count="1"/>
+	</block>
+
+	<block name="Tobacco Growing">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="plantedPotato3Harvest"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+		<property name="PlantGrowing.Next" value="Tobacco Plant"/>
+		<drop event="Destroy" name="Tobacco Sprout" count="1"/>
+	</block>
+	
+	<block name="plantedTobacco3Harvest">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="CustomIcon" value="plantedPotato3Harvest"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	</block>
+
+	<block name="Tobacco Plant">
+		<property name="Extends" value="plantedTobacco3Harvest"/>
+		<property name="DescriptionKey" value="Tobacco Plant"/>
+		<property name="CustomIcon" value="plantedPotato3Harvest"/>
+		<property name="CreativeMode" value="None"/>
+		<drop event="Harvest" name="Tobacco" count="1" tag="cropHarvest"/>
+		<property name="DowngradeBlock" value="Tobacco Sprout"/>
+	</block>
+	
+	<block name="Sativa Sprout">
+		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="plantedHop1"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="PlantGrowing.Next" value="Sativa Growing"/>
+		<property name="Group" value="Food/Cooking"/>
+		<drop event="Destroy" name="Sativa Sprout" count="1"/>
+	</block>
+
+	<block name="Sativa Growing">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="plantedHop1"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="PlantGrowing.Next" value="Sativa Plant"/>
+		<drop event="Destroy" name="Sativa Sprout" count="1"/>
+	</block>
+	
+	<block name="plantedSativa3Harvest">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="CustomIcon" value="plantedHop1"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	</block>
+
+	<block name="Sativa Plant">
+		<property name="Extends" value="plantedSativa3Harvest"/>
+		<property name="DescriptionKey" value="Sativa Plant"/>
+		<property name="CustomIcon" value="plantedHop1"/>
+		<property name="CreativeMode" value="None"/>
+		<drop event="Harvest" name="Sativa Bud" count="1" tag="cropHarvest"/>
+		<property name="DowngradeBlock" value="Sativa Sprout"/>
+	</block>
+	
+	<block name="Indica Sprout">
+		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="plantedHop1"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+		<property name="PlantGrowing.Next" value="Indica Growing"/>
+		<property name="Group" value="Food/Cooking"/>
+		<drop event="Destroy" name="Indica Sprout" count="1"/>
+	</block>
+
+	<block name="Indica Growing">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="plantedHop1"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+		<property name="PlantGrowing.Next" value="Indica Plant"/>
+		<drop event="Destroy" name="Indica Sprout" count="1"/>
+	</block>
+	
+	<block name="plantedIndica3Harvest">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="CustomIcon" value="plantedHop1"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	</block>
+
+	<block name="Indica Plant">
+		<property name="Extends" value="plantedIndica3Harvest"/>
+		<property name="DescriptionKey" value="Indica Plant"/>
+		<property name="CustomIcon" value="plantedHop1"/>
+		<property name="CreativeMode" value="None"/>
+		<drop event="Harvest" name="Indica Bud" count="1" tag="cropHarvest"/>
+		<property name="DowngradeBlock" value="Indica Sprout"/>
+	</block>
+	
+	<block name="Sugar Cane Sprout">
+		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="conduit01"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="perkBrewmaster"/>
+		<property name="Texture" value="392"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="PlantGrowing.Next" value="Sugar Cane Growing"/>
+		<property name="Group" value="Food/Cooking"/>
+		<drop event="Destroy" name="Sugar Cane Sprout" count="1"/>
+	</block>
+
+	<block name="Sugar Cane Growing">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="conduit01"/>
+		<property name="Texture" value="392"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="PlantGrowing.Next" value="Sugar Cane Plant"/>
+		<drop event="Destroy" name="Sugar Cane Sprout" count="1"/>
+	</block>
+
+	<block name="plantedSugarCane3Harvest">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="CustomIcon" value="conduit01"/>
+		<property name="Texture" value="351"/>
+	</block>
+
+	<block name="Sugar Cane Plant">
+		<property name="Extends" value="plantedSugarCane3Harvest"/>
+		<property name="DescriptionKey" value="Sugar Cane Plant"/>
+		<property name="CustomIcon" value="conduit01"/>
+		<property name="CreativeMode" value="None"/>
+		<drop event="Harvest" name="Sugar Cane" count="1" tag="cropHarvest"/>
+		<property name="DowngradeBlock" value="Sugar Cane Sprout"/>
+	</block>
+	
+	<block name="Agave Sprout">
+		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="plantedYucca3Harvest"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="perkBrewmaster"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
+		<property name="PlantGrowing.Next" value="Agave Growing"/>
+		<property name="Group" value="Food/Cooking"/>
+		<drop event="Destroy" name="Agave Sprout" count="1"/>
+	</block>
+
+	<block name="Agave Growing">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="plantedYucca3Harvest"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
+		<property name="PlantGrowing.Next" value="Agave Plant"/>
+		<drop event="Destroy" name="Agave Sprout" count="1"/>
+	</block>
+	
+	<block name="plantedAgave3Harvest">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="CustomIcon" value="plantedYucca3Harvest"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	</block>
+
+	<block name="Agave Plant">
+		<property name="Extends" value="plantedAgave3Harvest"/>
+		<property name="DescriptionKey" value="Agave Plant"/>
+		<property name="CustomIcon" value="plantedYucca3Harvest"/>
+		<property name="CreativeMode" value="None"/>
+		<drop event="Harvest" name="Agave" count="1" tag="cropHarvest"/>
+		<property name="DowngradeBlock" value="Agave Sprout"/>
+	</block>
+	
+	<block name="Cocoa Sprout">
+		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="cropsHarvestableMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="PlantGrowing.Next" value="Cocoa Growing"/>
+		<property name="Group" value="Food/Cooking"/>
+		<drop event="Destroy" name="Cocoa Sprout" count="1"/>
+	</block>
+
+	<block name="Cocoa Growing">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="cropsHarvestableMaster"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="PlantGrowing.Next" value="Cocoa Plant"/>
+		<drop event="Destroy" name="Cocoa Sprout" count="1"/>
+	</block>
+	
+	<block name="plantedCocoa3Harvest">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="CustomIcon" value="cropsHarvestableMaster"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	</block>
+
+	<block name="Cocoa Plant">
+		<property name="Extends" value="plantedCocoa3Harvest"/>
+		<property name="DescriptionKey" value="Cocoa Plant"/>
+		<property name="CustomIcon" value="cropsHarvestableMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<drop event="Harvest" name="Cocoa" count="1" tag="cropHarvest"/>
+		<property name="DowngradeBlock" value="Cocoa Sprout"/>
+	</block>
+	
+	<block name="Barley Sprout">
+		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="perkBrewmaster"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="corn_sprout_shape"/>
+		<property name="Mesh" value="cutoutmoveable"/>
+		<property name="MultiBlockDim" value="1,3,1"/>
+		<property name="Texture" value="529"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="PlantGrowing.Next" value="Barley Growing"/>
+		<property name="Group" value="Food/Cooking"/>
+		<drop event="Destroy" name="Barley Sprout" count="1"/>
+	</block>
+
+	<block name="Barley Growing">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="corn_growth_shape"/>
+		<property name="Mesh" value="cutoutmoveable"/>
+		<property name="MultiBlockDim" value="1,3,1"/>
+		<property name="Texture" value="529"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="PlantGrowing.Next" value="Barley Plant"/>
+		<drop event="Destroy" name="Barley Sprout" count="1"/>
+	</block>
+	
+	<block name="plantedBarley3Harvest">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="corn_dead_shape"/>
+		<property name="Mesh" value="cutoutmoveable"/>
+		<property name="MultiBlockDim" value="1,3,1"/>
+		<property name="Texture" value="530"/>
+	</block>
+
+	<block name="Barley Plant">
+		<property name="Extends" value="plantedBarley3Harvest"/>
+		<property name="DescriptionKey" value="Barley Plant"/>
+		<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="corn_dead_shape"/>
+		<property name="Mesh" value="cutoutmoveable"/>
+		<property name="MultiBlockDim" value="1,3,1"/>
+		<property name="Texture" value="530"/>
+		<drop event="Harvest" name="Barley" count="1" tag="cropHarvest"/>
+		<property name="DowngradeBlock" value="Barley Sprout"/>
+	</block>
+	
+	<block name="Wheat Sprout">
+		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="treeGreenBrownGrassDiagonal"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="perkBrewmaster"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="corn_sprout_shape"/>
+		<property name="Mesh" value="cutoutmoveable"/>
+		<property name="MultiBlockDim" value="1,3,1"/>
+		<property name="Texture" value="529"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="PlantGrowing.Next" value="Wheat Growing"/>
+		<property name="Group" value="Food/Cooking"/>
+		<drop event="Destroy" name="Wheat Sprout" count="1"/>
+	</block>
+
+	<block name="Wheat Growing">
+		<property name="Extends" value="cropsGrowingMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="treeGreenBrownGrassDiagonal"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="corn_growth_shape"/>
+		<property name="Mesh" value="cutoutmoveable"/>
+		<property name="MultiBlockDim" value="1,3,1"/>
+		<property name="Texture" value="529"/>
+		<property name="PlantGrowing.GrowthRate" value="63.0"/>
+		<property name="PlantGrowing.Next" value="Wheat Plant"/>
+		<drop event="Destroy" name="Wheat Sprout" count="1"/>
+	</block>
+	
+	<block name="plantedWheat3Harvest">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="CustomIcon" value="treeGreenBrownGrassDiagonal"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="corn_dead_shape"/>
+		<property name="Mesh" value="cutoutmoveable"/>
+		<property name="MultiBlockDim" value="1,3,1"/>
+		<property name="Texture" value="530"/>
+	</block>
+
+	<block name="Wheat Plant">
+		<property name="Extends" value="plantedWheat3Harvest"/>
+		<property name="DescriptionKey" value="Wheat Plant"/>
+		<property name="CustomIcon" value="treeGreenBrownGrassDiagonal"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="corn_dead_shape"/>
+		<property name="Mesh" value="cutoutmoveable"/>
+		<property name="MultiBlockDim" value="1,3,1"/>
+		<property name="Texture" value="530"/>
+		<drop event="Harvest" name="Wheat" count="1" tag="cropHarvest"/>
+		<property name="DowngradeBlock" value="Wheat Sprout"/>
+	</block>
+	
+	<block name="Brewing Station">
+	<property name="Class" value="Campfire"/>
+	<property name="CustomIcon" value="chemistryStation"/>
+	<property name="Material" value="Miron_scrap"/>
+	<property name="MaxDamage" value="800"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Entities/Crafting/chemistry_stationPrefab"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="3,2,1"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="HeatMapStrength" value="1.5"/>
+	<property name="HeatMapTime" value="1200"/>
+	<property name="HeatMapFrequency" value="25"/>
+	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
+
+	<property class="Workstation">
+		<property name="Modules" value="output,fuel,input"/>
+	</property>
+	<property name="WorkstationIcon" value="ui_game_symbol_chemistry" />
+	<property name="CraftActionName" value="lblContextActionMix" />
+	<property name="CraftIcon" value="ui_game_symbol_chemistry" />
+	<property name="OpenSound" value="chem_station_open" />
+	<property name="CloseSound" value="chem_station_close" />
+	<property name="CraftSound" value="chem_station_mix_click" />
+	<property name="CraftCompleteSound" value="chem_station_complete_item" />
+	<property name="WorkstationJournalTip" value="chemistryStationTip" />
+
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="10"/>
+		<property name="resourceMetalPipe" value="10"/>
+		<property name="resourceWood" value="40"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="100" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceScrapBrass" count="75" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceForgedIron" count="4" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="15"/>
+	<property name="Group" value="Food/Cooking,Building,Science"/>
+	<property name="EconomicValue" value="4000"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+	<property name="SortOrder1" value="70i0"/>
+</block>
+
+<block name="Distiller">
+	<property name="Class" value="Campfire"/>
+	<property name="CustomIcon" value="wineBarrel"/>
+	<property name="Material" value="Miron_scrap"/>
+	<property name="MaxDamage" value="800"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Entities/Decor/wineBarrelPrefab"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="HeatMapStrength" value="1.5"/>
+	<property name="HeatMapTime" value="1200"/>
+	<property name="HeatMapFrequency" value="25"/>
+	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
+
+	<property class="Workstation">
+		<property name="Modules" value="output,fuel,input"/>
+	</property>
+	<property name="WorkstationIcon" value="ui_game_symbol_chemistry" />
+	<property name="CraftActionName" value="lblContextActionMix" />
+	<property name="CraftIcon" value="ui_game_symbol_chemistry" />
+	<property name="OpenSound" value="chem_station_open" />
+	<property name="CloseSound" value="chem_station_close" />
+	<property name="CraftSound" value="chem_station_mix_click" />
+	<property name="CraftCompleteSound" value="chem_station_complete_item" />
+	<property name="WorkstationJournalTip" value="chemistryStationTip" />
+
+	<property class="RepairItems">
+		<property name="resourceScrapBrass" value="50"/>
+		<property name="resourceWood" value="50"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapBrass" count="100" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="50" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="15" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="15"/>
+	<property name="Group" value="Food/Cooking,Building,Science"/>
+	<property name="EconomicValue" value="4000"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+	<property name="SortOrder1" value="70i0"/>
+</block>
+	
+</insertBefore>
+
+</StressedOut>

@@ -1,0 +1,3043 @@
+<StressedOut>
+<insertBefore xpath="/items/item[@name='resourceScrapBrass']">
+
+	<item name="Tobacco">
+		<property name="CustomIcon" value="resourceCropCoffeeBeans"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceCrop"/>
+		<property name="Stacknumber" value="500"/> <!-- STK resource -->
+		<property name="EconomicValue" value="12"/>
+		<property name="EconomicBundleSize" value="80"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="Group" value="Resources,Food/Cooking,CFFood/Cooking"/>
+	</item>
+
+	<item name="Sativa Bud">
+		<property name="CustomIcon" value="plantedHop1"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceCrop"/>
+		<property name="Stacknumber" value="500"/> <!-- STK resource -->
+		<property name="EconomicValue" value="12"/>
+		<property name="EconomicBundleSize" value="200"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="Group" value="Resources,Food/Cooking,CFFood/Cooking"/>
+	</item>
+	
+	<item name="Indica Bud">
+		<property name="CustomIcon" value="plantedHop1"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceCrop"/>
+		<property name="Stacknumber" value="500"/> <!-- STK resource -->
+		<property name="EconomicValue" value="200"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="Group" value="Resources,Food/Cooking,CFFood/Cooking"/>
+	</item>
+	
+	<item name="Sugar Cane">
+		<property name="CustomIcon" value="foodCropYuccaFruit"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceCrop"/>
+		<property name="Stacknumber" value="500"/> <!-- STK resource -->
+		<property name="EconomicValue" value="45"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="Group" value="Resources,Food/Cooking,CFFood/Cooking"/>
+	</item>
+	
+	<item name="Agave">
+		<property name="CustomIcon" value="plantedAloe1"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceCrop"/>
+		<property name="Stacknumber" value="500"/> <!-- STK resource -->
+		<property name="EconomicValue" value="45"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="Group" value="Resources,Food/Cooking,CFFood/Cooking"/>
+	</item>
+	
+	<item name="Cocoa">
+		<property name="CustomIcon" value="resourceCropCoffeeBeans"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceCrop"/>
+		<property name="Stacknumber" value="500"/> <!-- STK resource -->
+		<property name="EconomicValue" value="45"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="Group" value="Resources,Food/Cooking,CFFood/Cooking"/>
+	</item>
+	
+	<item name="Barley">
+		<property name="CustomIcon" value="apparelGhillieSuitHood"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceCrop"/>
+		<property name="Stacknumber" value="500"/> <!-- STK resource -->
+		<property name="EconomicValue" value="45"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="Group" value="Resources,Food/Cooking,CFFood/Cooking"/>
+	</item>
+	
+	<item name="Wheat">
+		<property name="CustomIcon" value="treeBrownGrassDiagonal"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceCrop"/>
+		<property name="Stacknumber" value="500"/> <!-- STK resource -->
+		<property name="EconomicValue" value="45"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="Group" value="Resources,Food/Cooking,CFFood/Cooking"/>
+	</item>
+	
+	<item name="Rice">
+		<property name="CustomIcon" value="plantedYucca1"/>
+		<property name="TintColor" value="255,255,255"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceCrop"/>
+		<property name="Stacknumber" value="500"/> <!-- STK resource -->
+		<property name="EconomicValue" value="60"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="Group" value="Resources,Food/Cooking,CFFood/Cooking"/>
+	</item>
+	
+	<item name="Yeast">
+		<property name="CustomIcon" value="resourceCrushedSand"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceCrop"/>
+		<property name="Stacknumber" value="500"/> <!-- STK resource -->
+		<property name="EconomicValue" value="70"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="Group" value="Resources,Chemicals,CFChemicals"/>
+	</item>
+	
+	<item name="Flour">
+		<property name="CustomIcon" value="resourceCrushedSand"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceCrop"/>
+		<property name="Stacknumber" value="500"/> <!-- STK resource -->
+		<property name="EconomicValue" value="70"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="CraftingIngredientTime" value="5"/>
+		<property name="Group" value="Resources,Chemicals,CFChemicals"/>
+	</item>
+	
+	<item name="Cigarette">
+		<property name="Tags" value="medical"/>
+		<property name="HoldType" value="12"/>
+		<property name="Meshfile" value="#Other/Items?Crafting/plant_fibers.fbx"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="apparelCigarette"/>
+		<property name="Material" value="Morganic"/>
+		<property name="EconomicValue" value="100"/>
+		<property name="Stacknumber" value="10"/> <!-- STK loot -->
+		<property name="DisplayType" value="foodCureStressed"/>
+		<property name="TintColor" value="255,255,255"/>
+		<property name="Group" value="Science,CFChemicals,Medical"/>
+
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="forge_fire_die"/>
+	</property>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".05"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure,buffProcessConsumables"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-5"/><display_value name="foodHealthAmount" value="-5"/>
+	</effect_group>
+	</item>	
+	
+	<item name="Cigar">
+		<property name="Tags" value="medical"/>
+		<property name="HoldType" value="12"/>
+		<property name="Meshfile" value="#Other/Items?Crafting/plant_fibers.fbx"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="apparelCigar"/>
+		<property name="Material" value="Morganic"/>
+		<property name="EconomicValue" value="150"/>
+		<property name="Stacknumber" value="10"/> <!-- STK loot -->
+		<property name="DisplayType" value="foodCureStressed"/>
+		<property name="TintColor" value="255,255,255"/>
+		<property name="Group" value="Science,CFChemicals,Medical"/>
+
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="forge_fire_die"/>
+	</property>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".15"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="15"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure,buffProcessConsumables"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-5"/><display_value name="foodHealthAmount" value="-5"/>
+	</effect_group>
+	</item>	
+	
+	<item name="Indica Joint">
+		<property name="Tags" value="medical"/>
+		<property name="HoldType" value="12"/>
+		<property name="Meshfile" value="#Other/Items?Crafting/plant_fibers.fbx"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="apparelCigarette"/>
+		<property name="Material" value="Morganic"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Stacknumber" value="10"/> <!-- STK loot -->
+		<property name="DisplayType" value="foodCureStressed"/>
+		<property name="TintColor" value="255,255,255"/>
+		<property name="Group" value="Science,CFChemicals,Medical"/>
+
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="forge_fire_die"/>
+		<requirement name="NotHasBuff" buff="Stoned01"/>
+		<requirement name="NotHasBuff" buff="Stoned02"/>
+	</property>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".3"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Stoned01"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$StonedDuration" operation="add" value="123"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$StonedDuration" operation="set" value="363">
+				<requirement name="CVarCompare" cvar="$StonedDuration" operation="GT" value="138"/></triggered_effect>
+	</effect_group>
+	
+	</item>	
+	
+	<item name="Sativa Joint">
+		<property name="Tags" value="medical"/>
+		<property name="HoldType" value="12"/>
+		<property name="Meshfile" value="#Other/Items?Crafting/plant_fibers.fbx"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="apparelCigarette"/>
+		<property name="Material" value="Morganic"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Stacknumber" value="10"/> <!-- STK loot -->
+		<property name="DisplayType" value="Sativa"/>
+		<property name="TintColor" value="255,255,255"/>
+		<property name="Group" value="Science,CFChemicals,Medical"/>
+
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="forge_fire_die"/>
+		<requirement name="NotHasBuff" buff="Stoned01"/>
+		<requirement name="NotHasBuff" buff="Stoned02"/>
+	</property>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".1"/>
+		<display_value name="dCraftingTime" value="-.15"/>
+		<display_value name="dDuration" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Stoned02"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$StonedDuration" operation="add" value="48"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$StonedDuration" operation="set" value="138">
+				<requirement name="CVarCompare" cvar="$StonedDuration" operation="GT" value="138"/></triggered_effect>
+	</effect_group>
+	
+	</item>	
+		
+	<item name="A Nice Relaxing Book"> <!-- first book -->
+	<property name="ItemTypeIcon" value="book"/>
+	<property name="AltItemTypeIcon" value="book_read"/>
+	<property name="CustomIcon" value="schematicMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="21"/>
+	<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Weight" value="5"/>
+	<property name="FuelValue" value="5"/>
+	<property name="Stacknumber" value="20"/> <!-- STK book -->
+	<property name="EconomicValue" value="500"/>
+	<property name="DisplayType" value="foodCureStressed"/>
+	<property name="Group" value="Books,Mods"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="UseAnimation" value="false"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="read_mod"/>
+    <property name="Sound_in_head" value="true"/>
+  </property>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".25"/>
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	</item>
+
+<item name="Stout">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarRiverWater"/>
+	<property name="CustomIconTint" value="330000"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="Stout"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dHealthLoss" value=".8"/>
+			<display_value name="dHangoverRisk" value=".05"/>
+			<display_value name="dDuration" value="120"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStoutDuration" operation="add" value="123"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStoutDuration" operation="set" value="363">
+				<requirement name="CVarCompare" cvar="$buffStoutDuration" operation="GT" value="363"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Stout"/>			
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".1"/>
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Pilsner">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarRiverWater"/>
+	<property name="CustomIconTint" value="ffff99"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="Pilsner"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+		<effect_group tiered="false">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name=".foodStaminaBonusAdd" value="0"/>
+			<display_value name="dRunSpeed" value=".5"/>
+			<display_value name="dHangoverRisk" value=".05"/>
+			<display_value name="dDuration" value="45"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="50"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffPilsnerDuration" operation="add" value="48"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffPilsnerDuration" operation="set" value="138">
+				<requirement name="CVarCompare" cvar="$buffPilsnerDuration" operation="GT" value="138"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Pilsner,buffProcessConsumables"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".1"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Porter">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarRiverWater"/>
+	<property name="CustomIconTint" value="663300"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="Porter"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dMaxHealthBonus" value="50"/>
+			<display_value name="dHypothermalResist" value="25"/>
+			<display_value name="dHangoverRisk" value=".05"/>
+			<display_value name="dDuration" value="300"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffPorterDuration" operation="add" value="303"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffPorterDuration" operation="set" value="903">
+				<requirement name="CVarCompare" cvar="$buffPorterDuration" operation="GT" value="903"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Porter"/>
+	</effect_group>
+		<effect_group tiered="false">
+		<display_value name="dCureStress" value=".1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Pale Ale">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarRiverWater"/>
+	<property name="CustomIconTint" value="ffcc00"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="PaleAle"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dEntityDamage" value=".5"/>
+			<display_value name="dExDamageBlock" value=".5"/>
+			<display_value name="dExDamageEntity" value=".5"/>
+			<display_value name="dHangoverRisk" value=".05"/>
+			<display_value name="dDuration" value="45"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffPaleAleDuration" operation="add" value="48"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffPaleAleDuration" operation="set" value="138">
+				<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="GT" value="138"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="PaleAle"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".1"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Lager">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarRiverWater"/>
+	<property name="CustomIconTint" value="b45f06"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="Lager"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dBartering" value=".1"/>
+			<display_value name="dHangoverRisk" value=".05"/>
+			<display_value name="dDuration" value="600"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffLagerDuration" operation="add" value="603"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffLagerDuration" operation="set" value="1803">
+				<requirement name="CVarCompare" cvar="$buffLagerDuration" operation="GT" value="1803"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Lager"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".1"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Wheat Ale">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarRiverWater"/>
+	<property name="CustomIconTint" value="ffff99"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="WheatAle"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dLootGamestageFlat" value="15"/>
+			<display_value name="dLootGamestagePerc" value=".1"/>
+			<display_value name="dCarryCapacity" value="50"/>
+			<display_value name="dHangoverRisk" value=".05"/>
+			<display_value name="dDuration" value="300"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffWheatAleDuration" operation="add" value="303"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffWheatAleDuration" operation="set" value="903">
+				<requirement name="CVarCompare" cvar="$buffWheatAleDuration" operation="GT" value="903"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="WheatAle"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".1"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Pumpkin Ale">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarRiverWater"/>
+	<property name="CustomIconTint" value="663300"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="PumpkinAle"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dMaxHealthBonus" value="100"/>
+			<display_value name="dDiseaseResist" value="1"/>
+			<display_value name="dHangoverRisk" value=".05"/>
+			<display_value name="dDuration" value="600"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffPumpkinAleDuration" operation="add" value="603"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffPumpkinAleDuration" operation="set" value="903">
+				<requirement name="CVarCompare" cvar="$buffPumpkinAleDuration" operation="GT" value="903"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="PumpkinAle"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".1"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="IPA">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarRiverWater"/>
+	<property name="CustomIconTint" value="ffcc00"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="IPA"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dMaxHealthBonus" value="50"/>
+			<display_value name="dHyperthermalResist" value="25"/>
+			<display_value name="dHangoverRisk" value=".05"/>
+			<display_value name="dDuration" value="300"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffIPADuration" operation="add" value="303"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffIPADuration" operation="set" value="903">
+				<requirement name="CVarCompare" cvar="$buffIPADuration" operation="GT" value="903"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="IPA"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".1"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Whiskey">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarGrandpasAwesomeSauce"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK resource -->
+	<property name="EconomicValue" value="500"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="Whiskey"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dStrength" value="1"/>
+			<display_value name="dHangoverRisk" value=".75"/>
+			<display_value name="dDuration" value="1800"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffWhiskeyDuration" operation="add" value="1803"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffWhiskeyDuration" operation="set" value="5403">
+				<requirement name="CVarCompare" cvar="$buffWhiskeyDuration" operation="GT" value="5403"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Whiskey"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".7"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="70"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="75"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Vodka">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarGrandpasMoonshine"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK resource -->
+	<property name="EconomicValue" value="500"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="Vodka"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dFortitude" value="1"/>
+			<display_value name="dHangoverRisk" value=".75"/>
+			<display_value name="dDuration" value="1800"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffVodkaDuration" operation="add" value="1803"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffVodkaDuration" operation="set" value="5403">
+				<requirement name="CVarCompare" cvar="$buffVodkaDuration" operation="GT" value="5403"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Vodka"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".7"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="70"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="75"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Gin">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarGrandpasMoonshine"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK resource -->
+	<property name="EconomicValue" value="500"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="Gin"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dIntellect" value="1"/>
+			<display_value name="dHangoverRisk" value=".75"/>
+			<display_value name="dDuration" value="1800"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffGinDuration" operation="add" value="1803"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffGinDuration" operation="set" value="5403">
+				<requirement name="CVarCompare" cvar="$buffGinDuration" operation="GT" value="5403"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Gin"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".7"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="70"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="75"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Rum">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarGrandpasAwesomeSauce"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK resource -->
+	<property name="EconomicValue" value="500"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="Rum"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dAgility" value="1"/>
+			<display_value name="dHangoverRisk" value=".75"/>
+			<display_value name="dDuration" value="1800"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffRumDuration" operation="add" value="1803"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffRumDuration" operation="set" value="5403">
+				<requirement name="CVarCompare" cvar="$buffRumDuration" operation="GT" value="5403"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Rum"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".7"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="70"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="75"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Tequila">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarGrandpasMoonshine"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK resource -->
+	<property name="EconomicValue" value="500"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="Tequila"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dPerception" value="1"/>
+			<display_value name="dHangoverRisk" value=".75"/>
+			<display_value name="dDuration" value="1800"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffTequilaDuration" operation="add" value="1803"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffTequilaDuration" operation="set" value="5403">
+				<requirement name="CVarCompare" cvar="$buffTequilaDuration" operation="GT" value="5403"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Tequila"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".7"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="70"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="75"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Sake">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarGrandpasMoonshine"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK resource -->
+	<property name="EconomicValue" value="500"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="Sake"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dLootGamestageFlat" value="50"/>
+			<display_value name="dLootGamestagePerc" value=".25"/>
+			<display_value name="dHangoverRisk" value=".75"/>
+			<display_value name="dDuration" value="1800"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffSakeDuration" operation="add" value="1803"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffSakeDuration" operation="set" value="5403">
+				<requirement name="CVarCompare" cvar="$buffSakeDuration" operation="GT" value="5403"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Sake"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".7"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="70"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="75"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Brandy">
+	<property name="HoldType" value="3"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarGrandpasAwesomeSauce"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="10"/> <!-- STK resource -->
+	<property name="EconomicValue" value="500"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property name="DisplayType" value="Brandy"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dCraftingTime" value="-.25"/>
+			<display_value name="dHangoverRisk" value=".75"/>
+			<display_value name="dDuration" value="1800"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBrandyDuration" operation="add" value="1803"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBrandyDuration" operation="set" value="5403">
+				<requirement name="CVarCompare" cvar="$buffBrandyDuration" operation="GT" value="5403"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Brandy"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".7"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="70"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="75"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Blueberry Juice">
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="water"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarRiverWater"/>
+	<property name="CustomIconTint" value="0033cc"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Weight" value="10"/>	
+	<property name="EconomicValue" value="68"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<effect_group tiered="false" name="Drink Tier 0/1">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="34"/>
+			<display_value name="dStaminaRegen" value=".15"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Gold Rush">
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="Gold Rush"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarYuccaCocktail"/>
+	<property name="CustomIconTint" value="FFFB14"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Weight" value="10"/>	
+	<property name="EconomicValue" value="68"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffFatigued"/><display_value name="dStopsWeakness" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInjuryConcussion"/><display_value name="dStopsConcussion" value="1"/>
+			<display_value name="dHangoverRisk" value=".12"/>
+			<display_value name="dDuration" value="300"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffGoldRushDuration" operation="add" value="303"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffGoldRushDuration" operation="set" value="903">
+				<requirement name="CVarCompare" cvar="$buffGoldRushDuration" operation="GT" value="903"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="GoldRush"/>
+	</effect_group>
+	
+	<effect_group tiered="false">
+		<display_value name="dCureInfection" value=".3"/>	
+		<requirement name="NotHasBuff" buff="buffInfectionAddCure"/>		
+		<requirement name="NotHasBuff" buff="buffInfection01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffInfection02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffInfection03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".20"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Irish Coffee">
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="Irish Coffee"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarYuccaCocktail"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Weight" value="10"/>	
+	<property name="EconomicValue" value="68"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dHarvestMining" value=".3"/>
+			<display_value name="dStaminaRegen" value=".2"/>
+			<display_value name="dHypothermalResist" value="30"/>
+			<display_value name="dHangoverRisk" value=".12"/>
+			<display_value name="dDuration" value="600"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffIrishCoffeeDuration" operation="add" value="603"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffIrishCoffeeDuration" operation="set" value="1803">
+				<requirement name="CVarCompare" cvar="$buffIrishCoffeeDuration" operation="GT" value="1803"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="IrishCoffee"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".20"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="BlackJack">
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="BlackJack"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarYuccaCocktail"/>
+	<property name="CustomIconTint" value="552C00"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Weight" value="10"/>	
+	<property name="EconomicValue" value="68"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dEntityDamage" value=".5"/>
+			<display_value name="dHangoverRisk" value=".12"/>
+			<display_value name="dDuration" value="45"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBlackJackDuration" operation="add" value="48"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBlackJackDuration" operation="set" value="138">
+				<requirement name="CVarCompare" cvar="$buffBlackJackDuration" operation="GT" value="138"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="BlackJack"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".20"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Gin and Juice">
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="GinJuice"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarYuccaCocktail"/>
+	<property name="CustomIconTint" value="8C00FF"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Weight" value="10"/>	
+	<property name="EconomicValue" value="68"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dTreasureBlocksPerReduction" value="-6"/>
+			<display_value name="dHangoverRisk" value=".12"/>
+			<display_value name="dDuration" value="300"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffGinJuiceDuration" operation="add" value="303"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffGinJuiceDuration" operation="set" value="903">
+				<requirement name="CVarCompare" cvar="$buffGinJuiceDuration" operation="GT" value="903"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="GinJuice"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".20"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="New Vegas Bomb">
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="NewVegas"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarYuccaCocktail"/>
+	<property name="CustomIconTint" value="990000"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Weight" value="10"/>	
+	<property name="EconomicValue" value="68"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dStaminaRegen" value=".25"/>
+			<display_value name="dRunSpeed" value=".8"/>
+			<display_value name="dHangoverRisk" value=".12"/>
+			<display_value name="dDuration" value="300"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffNewVegasDuration" operation="add" value="123"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffNewVegasDuration" operation="set" value="363">
+				<requirement name="CVarCompare" cvar="$buffNewVegasDuration" operation="GT" value="363"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="NewVegas"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".20"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Day Walker">
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="DayWalker"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarYuccaCocktail"/>
+	<property name="CustomIconTint" value="FFC500"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Weight" value="10"/>	
+	<property name="EconomicValue" value="68"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dCarryCapacityDay" value="27"/>
+			<display_value name="dHyperthermalResist" value="40"/>
+			<display_value name="dHangoverRisk" value=".12"/>
+			<display_value name="dDuration" value="1800"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDayWalkerDuration" operation="add" value="1803"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDayWalkerDuration" operation="set" value="5403">
+				<requirement name="CVarCompare" cvar="$buffDayWalkerDuration" operation="GT" value="1803"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="DayWalker"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".20"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Zombie">
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="Zombie"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarYuccaCocktail"/>
+	<property name="CustomIconTint" value="99ff33"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Weight" value="10"/>	
+	<property name="EconomicValue" value="68"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dStaminaRegen" value=".5"/>
+			<display_value name="dRunSpeed" value=".3"/>
+			<display_value name="JumpStrengh" value=".5"/>
+			<display_value name="dNightVision" value="1"/>
+			<display_value name="dHangoverRisk" value=".12"/>
+			<display_value name="dDuration" value="45"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffZombieDuration" operation="add" value="48"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffZombieDuration" operation="set" value="138">
+				<requirement name="CVarCompare" cvar="$buffZombieDuration" operation="GT" value="138"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Zombie"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".20"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Double Tap Margarita">
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="DoubleTap"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarYuccaCocktail"/>
+	<property name="CustomIconTint" value="BAFF4F"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Weight" value="10"/>	
+	<property name="EconomicValue" value="68"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dHarvestCrop" value="1"/>
+			<display_value name="dHangoverRisk" value=".12"/>
+			<display_value name="dDuration" value="120"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDoubleTapDuration" operation="add" value="123"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDoubleTapDuration" operation="set" value="363">
+				<requirement name="CVarCompare" cvar="$buffDoubleTapDuration" operation="GT" value="363"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="DoubleTap"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".20"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Blueberry Long Island Iced Tea">
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="LongIsland"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="drinkJarYuccaCocktail"/>
+	<property name="CustomIconTint" value="00ABE8"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="10"/> <!-- STK drink -->
+	<property name="Weight" value="10"/>	
+	<property name="EconomicValue" value="68"/>
+	<property name="UnlockedBy" value="perkBrewmaster"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<requirement name="NotHasBuff" buff="Hungover"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dBlockDamage" value="5000"/>
+			<display_value name="dAttacksPerMinute" value="1"/>
+			<display_value name="dHangoverRisk" value=".30"/>
+			<display_value name="dDuration" value="30"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffLongIslandDuration" operation="add" value="38"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffLongIslandDuration" operation="set" value="128">
+				<requirement name="CVarCompare" cvar="$buffLongIslandDuration" operation="GT" value="128"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="LongIsland"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<display_value name="dCureStress" value=".35"/>		
+		<requirement name="NotHasBuff" buff="buffstressed01GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed02GetBetter"/>
+		<requirement name="NotHasBuff" buff="buffstressed03GetBetter"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffStressedAddCurePerc" operation="add" value="35"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStressedAddCure"/>
+	</effect_group>
+	<effect_group tiered="false">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Hungover">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+		</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Honey Ham">
+	<property name="Tags" value="food"/>
+	<property name="CustomIcon" value="foodPumpkinBread"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/> <!-- STK food -->
+	<property name="EconomicValue" value="100"/>
+	<property name="UnlockedBy" value="perkMasterChef"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	
+	<effect_group tiered="false" name="Food Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="15"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Pork Chops">
+	<property name="Tags" value="food"/>
+	<property name="CustomIcon" value="foodCharredMeat"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/> <!-- STK food -->
+	<property name="EconomicValue" value="70"/>
+	<property name="UnlockedBy" value="perkMasterChef"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Sushi">
+	<property name="Tags" value="food"/>
+	<property name="CustomIcon" value="resourceSnowBall"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/> <!-- STK food -->
+	<property name="EconomicValue" value="70"/>
+	<property name="UnlockedBy" value="perkMasterChef"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Blueberry Muffins">
+	<property name="Tags" value="food"/>
+	<property name="CustomIcon" value="foodBlueberryPie"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/> <!-- STK food -->
+	<property name="EconomicValue" value="60"/>
+	<property name="UnlockedBy" value="perkMasterChef"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Smoked Game">
+	<property name="Tags" value="food"/>
+	<property name="CustomIcon" value="foodGrilledMeat"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/> <!-- STK food -->
+	<property name="EconomicValue" value="90"/>
+	<property name="UnlockedBy" value="perkMasterChef"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="40"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="40"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="40"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Chicken Noodles">
+	<property name="Tags" value="food"/>
+	<property name="CustomIcon" value="foodSpaghetti"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/> <!-- STK food -->
+	<property name="EconomicValue" value="130"/>
+	<property name="UnlockedBy" value="perkMasterChef"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="60"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Rabbit Stew">
+	<property name="Tags" value="food"/>
+	<property name="CustomIcon" value="foodVegetableStew"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/> <!-- STK food -->
+	<property name="EconomicValue" value="130"/>
+	<property name="UnlockedBy" value="perkMasterChef"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="60"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Bobcat Burgers">
+	<property name="Tags" value="food"/>
+	<property name="CustomIcon" value="foodShamSandwich"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/> <!-- STK food -->
+	<property name="EconomicValue" value="190"/>
+	<property name="UnlockedBy" value="perkMasterChef"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="100"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Bear Chili">
+	<property name="Tags" value="food"/>
+	<property name="CustomIcon" value="foodHoboStew"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/> <!-- STK food -->
+	<property name="EconomicValue" value="250"/>
+	<property name="UnlockedBy" value="perkMasterChef"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2.1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="150"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="40"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="75"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+	<item name="Raw Pork">
+	<property name="Tags" value="food"/>
+	<property name="HoldType" value="31"/>
+	<property name="CustomIcon" value="foodRawMeat"/>
+	<property name="CustomIconTint" value="d8b8bd"/>
+	<property name="DisplayType" value="foodRaw"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MfoodRawMeat"/>
+	<property name="Stacknumber" value="125"/> <!-- STK food -->
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="CraftingIngredientTime" value="3"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Smell" value="ExLargeSmell"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="2"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-1"/><display_value name="foodHealthAmount" value="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/><display_value name="dDysenteryRisk" value=".12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+			<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+		</triggered_effect>
+	</effect_group>
+	</item>
+	
+	<item name="Raw Game Meat">
+	<property name="Tags" value="food"/>
+	<property name="HoldType" value="31"/>
+	<property name="CustomIcon" value="foodCharredMeat"/>
+	<property name="DisplayType" value="foodRaw"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MfoodRawMeat"/>
+	<property name="Stacknumber" value="125"/> <!-- STK food -->
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="CraftingIngredientTime" value="3"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Smell" value="ExLargeSmell"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="2"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-1"/><display_value name="foodHealthAmount" value="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/><display_value name="dDysenteryRisk" value=".12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+			<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+		</triggered_effect>
+	</effect_group>
+	</item>
+	
+	<item name="Raw Fish">
+	<property name="Tags" value="food"/>
+	<property name="HoldType" value="31"/>
+	<property name="CustomIcon" value="foodBoiledMeat"/>
+	<property name="DisplayType" value="foodRaw"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MfoodRawMeat"/>
+	<property name="Stacknumber" value="125"/> <!-- STK food -->
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="CraftingIngredientTime" value="3"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Smell" value="ExLargeSmell"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="2"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-1"/><display_value name="foodHealthAmount" value="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/><display_value name="dDysenteryRisk" value=".12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+			<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+		</triggered_effect>
+	</effect_group>
+	</item>
+	
+	<item name="Raw Chicken">
+	<property name="Tags" value="food"/>
+	<property name="HoldType" value="31"/>
+	<property name="CustomIcon" value="foodRawMeat"/>
+	<property name="CustomIconTint" value="d8b8bd"/>
+	<property name="DisplayType" value="foodRaw"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MfoodRawMeat"/>
+	<property name="Stacknumber" value="125"/> <!-- STK food -->
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="CraftingIngredientTime" value="3"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Smell" value="ExLargeSmell"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="2"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-1"/><display_value name="foodHealthAmount" value="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/><display_value name="dDysenteryRisk" value=".12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+			<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+		</triggered_effect>
+	</effect_group>
+	</item>
+	
+	<item name="Raw Rabbit Meat">
+	<property name="Tags" value="food"/>
+	<property name="HoldType" value="31"/>
+	<property name="CustomIcon" value="foodRawMeat"/>
+	<property name="CustomIconTint" value="d8b8bd"/>
+	<property name="DisplayType" value="foodRaw"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MfoodRawMeat"/>
+	<property name="Stacknumber" value="125"/> <!-- STK food -->
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="CraftingIngredientTime" value="3"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Smell" value="ExLargeSmell"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="2"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-1"/><display_value name="foodHealthAmount" value="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/><display_value name="dDysenteryRisk" value=".12"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+			<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+		</triggered_effect>
+	</effect_group>
+	</item>
+	
+	<item name="Polymer Fishing Net">
+	<property name="HoldType" value="34"/>
+	<property name="CustomIcon" value="chainLink"/>
+	<property name="Meshfile" value="#Other/Items?Crafting/Metal/IronBucket.fbx"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="50"/>
+	<property name="EconomicValue" value="84"/>
+	<property class="Action0">
+		<property name="Class" value="BailLiquid"/>
+		<property name="Delay" value=".35"/>
+		<property name="Sound_start" value="bucketbail_water"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="ExchangeItem"/>
+		<property name="Delay" value=".35"/>
+		<property name="Change_item_to" value="Raw Fish"/>
+		<property name="Focused_blockname_1" value="water"/>
+		<property name="Focused_blockname_2" value="waterMoving"/>
+		<property name="Focused_blockname_3" value="waterStaticBucket"/>
+		<property name="Focused_blockname_4" value="waterMovingBucket"/>
+		<property name="Focused_blockname_5" value="terrWaterPOI"/>
+		<property name="Sound_start" value="bucketfill_water"/>
+	</property>
+	<property name="Group" value="Tools/Traps"/>
+</item>
+
+</insertBefore>
+
+<!--Zombie adjustments where hitting the player increases infection and stress counters-->
+
+<remove xpath="//item[@name='meleeHandZombie01']" />
+	<remove xpath="//item[@name='meleeHandZombieBalancingDummy']" />
+	<remove xpath="//item[@name='meleeHandZombie02']" />
+	<remove xpath="//item[@name='meleeHandZombieFeral']" />
+	<remove xpath="//item[@name='meleeHandZombie02Feral']" />
+	<remove xpath="//item[@name='meleeHandZombieBurning']" />
+	<remove xpath="//item[@name='meleeHandZombieBurningFeral']" />
+	<remove xpath="//item[@name='meleeHandZombieBurningCrawler']" />
+	<remove xpath="//item[@name='meleeHandZombieCop']" />
+	<remove xpath="//item[@name='ammoProjectileZombieVomit']" />
+	<remove xpath="//item[@name='meleeHandZombieCopFeral']" />
+	<remove xpath="//item[@name='ammoProjectileZombieVomitFeral']" />
+	<remove xpath="//item[@name='meleeHandZombieCopRadiated']" />
+	<remove xpath="//item[@name='ammoProjectileZombieVomitRadiated']" />
+	<remove xpath="//item[@name='meleeHandAnimalZombieDog']" />
+	<remove xpath="//item[@name='meleeHandZombieStrong']" />
+	<remove xpath="//item[@name='meleeHandZombieDemolition']" />
+	<remove xpath="//item[@name='meleeHandZombieStrongFeral']" />
+	<remove xpath="//item[@name='meleeHandAnimalBear']" />
+	<remove xpath="//item[@name='meleeHandAnimalZombieBear']" />
+	<remove xpath="//item[@name='meleeHandAnimalZombieBearFeral']" />
+	<remove xpath="//item[@name='meleeHandZombieHazMat']" />
+	<remove xpath="//item[@name='meleeHandZombieHazMatFeral']" />
+	<remove xpath="//item[@name='meleeHandZombieWorker']" />
+	<remove xpath="//item[@name='meleeHandZombieWorkerFeral']" />
+	<remove xpath="//item[@name='meleeHandAnimalCoyote']" />
+	<remove xpath="//item[@name='meleeHandAnimalZombieVulture']" />
+	<remove xpath="//item[@name='meleeHandAnimalZombieVultureRadiated']" />
+	<remove xpath="//item[@name='ammoProjectileVultureVomit']" />
+	<remove xpath="//item[@name='meleeHandAnimalSnake']" />
+	<remove xpath="//item[@name='meleeHandAnimalWolf']" />
+	<remove xpath="//item[@name='meleeHandAnimalDireWolf']" />
+	<remove xpath="//item[@name='meleeHandBossGrace']" />
+
+<insertAfter xpath="/items/item[@name='meleeHandPlayer']">
+	
+	
+	<item name="meleeHandZombie01">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="10"/>
+		<property name="DamageBlock" value="8"/>
+		<!--<property name="Buff" value="buffInjuryBleedingTwo,buffInfectionCatch,buffInjuryStunned01"/>-->
+	</property>
+	<effect_group name="meleeHandZombie01" tiered="false">
+		<!-- these base_add or perc_add have no effect whatsoever on zombies
+		<passive_effect name="EntityDamage" operation="base_set" value="10"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="100"/>
+		-->
+
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="10"/>
+
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+
+
+
+		<!--
+		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingTwo"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
+		-->
+
+		<!-- If the  buffInfectionCatch  buff makes it past buff resistance, this value is added to the  infectionCounter,  increasing infection level -->
+		<!-- Buckets are: -->
+		<!--InfectionRegular--><!--InfectionFeral--><!--InfectionRadiated--><!--InfectionSpecial-->
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="100"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="500"/><!--AbrasionRegular-->
+			<!-- 1 point of abrasion HP reduction = 120 seconds or points -->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieBalancingDummy">
+	<property name="Extends" value="meleeHandZombie01"/>
+	<property name="CreativeMode" value="None"/>
+	<effect_group name="meleeHandZombieBalancingDummy" tiered="false">
+
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+
+		<!-- If the  buffInfectionCatch  buff makes it past buff resistance, this value is added to the  infectionCounter,  increasing infection level -->
+		<!-- Buckets are: -->
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="100"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="500"/><!--AbrasionRegular-->
+
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="200"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="600"/><!--AbrasionFeral-->
+
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="200"><!--InfectionRadiated-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="600"/><!--AbrasionRadiated-->
+
+
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="300"><!--InfectionSpecialHazmatReg-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="500"><!--InfectionSpecialHazmatFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+
+			<!-- 1 point of abrasion HP reduction = 120 seconds or points -->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombie02"> <!-- crawler. This hand item is automatically used (hardcoded) if a zombie turns into a crawler. Can be overridden in entityclasses. See zombieBurnt. -->
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="24"/>
+	<property class="Action0">
+		<property name="Delay" value="2.0"/> <!-- obsolete if rounds per minute exists -->
+	</property>
+	<effect_group name="meleeHandZombie02" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="30"/>  A16 2 -->
+
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+
+		<!--
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" target_tags="walker,player" buff="buffLegSprainedFallTrigger">
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+		</triggered_effect>
+		-->
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="100"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="500"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieFeral">
+	<property name="Extends" value="meleeHandZombie01"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="24"/>
+	</property>
+	<effect_group name="meleeHandZombieFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="200"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="600"/><!--AbrasionFeral-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombie02Feral">
+	<property name="Extends" value="meleeHandZombie02"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="24"/>
+	</property>
+	<effect_group name="meleeHandZombie02Feral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="30"/>  A16 2 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="200"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="600"/><!--AbrasionFeral-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieBurning">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="Class" value="Melee"/>
+		<property name="Sphere" value=".4"/>
+		<property name="DamageEntity" value="12"/>
+		<property name="DamageBlock" value="8"/>
+		<!--
+		<property name="Buff" value="buffBurningZombie,buffInfectionCatch,buffInjuryStunned01"/>
+		-->
+
+	</property>
+	<effect_group name="meleeHandZombieBurning" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8
+		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffBurningZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>-->
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="100"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="500"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieBurningFeral">
+	<property name="Extends" value="meleeHandZombieBurning"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="24"/>
+		<property name="DamageBlock" value="24"/>
+	</property>
+	<effect_group name="meleeHandZombieBurningFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="200"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="600"/><!--AbrasionFeral-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieBurningCrawler">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="24"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="24"/>
+		<property name="DamageBlock" value="24"/>
+		<property name="Delay" value="2.0"/> <!-- obsolete if rounds per minute exists -->
+		<!--<property name="Buff" value="buffInfectionCatch,buffBurningZombie"/>-->
+	</property>
+	<effect_group name="meleeHandZombieBurningCrawler" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="30"/>  A16 2
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" target_tags="walker,player" buff="buffLegSprainedFallTrigger">
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>-->
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="100"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="500"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieCop">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Degradation" value="99999" param1="true"/>
+	<property class="Action0">
+		<property name="Range" value="1.75"/>
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="100"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Vomit"/>
+		<property name="Hitmask_override" value="Arrow"/>
+		<property name="Delay" value=".3"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="200"/>
+		<property name="Infinite_ammo" value="true"/>
+		<property name="Magazine_items" value="ammoProjectileZombieVomit"/>
+		<property name="Sound_warning" value="hulkvomitwarning"/>
+		<property name="Sound_start" value="hulkvomitattack"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_reload" value=""/>
+	</property>
+	<effect_group name="meleeHandZombieCop" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+		<passive_effect name="MaxRange" operation="base_set" value="100"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4"/>
+		<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="200"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="500"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="ammoProjectileZombieVomit">
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Vomit/vomitBulbPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="DamageEntity" value="10"/>
+		<property name="DamageBlock" value="120"/>
+		<property name="Explosion.ParticleIndex" value="7"/>
+		<property name="Velocity" value="18"/>
+		<property name="FlyTime" value="2"/>
+		<property name="LifeTime" value="4"/>
+		<property name="CollisionRadius" value=".5"/>
+		<property name="DamageBonus.earth" value="0"/>
+		<property name="Buff" value="buffInfectionCatch"/>
+	</property>
+	<effect_group name="ammoProjectileZombieVomit" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInfectionCatch"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="500"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1000"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieCopFeral">
+	<property name="Extends" value="meleeHandZombieCop"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="40"/>
+		<property name="DamageBlock" value="200"/>
+	</property>
+	<property class="Action1"> <!-- Fire action -->
+		<property name="Magazine_items" value="ammoProjectileZombieVomitFeral"/>
+	</property>
+	<effect_group name="meleeHandZombieCopFeral" tiered="false">
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="3"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="10"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="400"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="500"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="800"/><!--AbrasionFeral-->
+	</effect_group>
+</item>
+
+<item name="ammoProjectileZombieVomitFeral">
+	<property name="Extends" value="ammoProjectileZombieVomit"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action1">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="240"/>
+		<property name="Velocity" value="18"/>
+		<property name="FlyTime" value="2"/>
+		<property name="LifeTime" value="4"/>
+		<property name="Explosion.ParticleIndex" value="7"/>
+		<property name="Explosion.RadiusBlocks" value="2"/>
+		<property name="Explosion.RadiusEntities" value="1"/>
+		<property name="Explosion.DamageBonus.water" value="0"/>
+		<property name="Explosion.DamageBonus.earth" value="0"/>
+	</property>
+	<effect_group name="ammoProjectileZombieVomitFeral" tiered="false">
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInfectionCatch"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="105"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="1"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="600"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="500"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1200"/><!--AbrasionFeral-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieCopRadiated">
+	<property name="Extends" value="meleeHandZombieCopFeral"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action1">
+		<property name="Magazine_items" value="ammoProjectileZombieVomitRadiated"/>
+	</property>
+	<effect_group name="meleeHandZombieCopRadiated" tiered="false">
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="6"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="10"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="40"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="600"><!--InfectionRadiated-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="500"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1200"/><!--AbrasionRadiated-->
+	</effect_group>
+</item>
+
+<item name="ammoProjectileZombieVomitRadiated">
+	<property name="Extends" value="ammoProjectileZombieVomit"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action1">
+		<property name="DamageEntity" value="25"/>
+		<property name="DamageBlock" value="240"/>
+		<property name="Velocity" value="18"/>
+		<property name="FlyTime" value="2"/>
+		<property name="LifeTime" value="4"/>
+		<property name="Explosion.ParticleIndex" value="7"/>
+		<property name="Explosion.RadiusBlocks" value="2"/>
+		<property name="Explosion.RadiusEntities" value="1"/>
+		<property name="Explosion.DamageBonus.water" value="0"/>
+		<property name="Explosion.DamageBonus.earth" value="0"/>
+	</property>
+	<effect_group name="ammoProjectileZombieVomitRadiated" tiered="false">
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInfectionCatch"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="145"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="1"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="600"><!--InfectionRadiated-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="500"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1200"/><!--AbrasionRadiated-->
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalZombieDog">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value=".7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="DamageEntity" value="8"/>
+		<property name="DamageBlock" value="14"/>
+	</property>
+	<effect_group name="meleeHandAnimalZombieDog" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>  A16 .7 -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="200"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="400"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieStrong">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="20"/>
+	</property>
+	<effect_group name="meleeHandZombieStrong" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="200"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="500"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieDemolition">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="500"/>
+	</property>
+	<effect_group name="meleeHandZombieStrong" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="800"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieStrongFeral">
+	<property name="Extends" value="meleeHandZombieStrong"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="40"/>
+		<property name="DamageBlock" value="60"/>
+	</property>
+	<effect_group name="meleeHandZombieStrongFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="300"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="400"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="600"/><!--AbrasionFeral-->
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalBear">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="46"/>
+	<property class="Action0">
+		<property name="Delay" value="1.5"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="3.6"/>
+		<property name="Sphere" value=".3"/>
+		<property name="DamageEntity" value="30"/>
+		<property name="DamageBlock" value="40"/>
+	</property>
+	<effect_group name="meleeHandAnimalBear" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="40"/>  A16 1.5 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="700"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalZombieBear">
+	<property name="Extends" value="meleeHandAnimalBear"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="Range" value="3.6"/>
+		<property name="DamageEntity" value="50"/>
+		<property name="DamageBlock" value="80"/>
+	</property>
+	<effect_group name="meleeHandAnimalZombieBear" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="40"/>  A16 1.5 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="500"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="700"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalZombieBearFeral">
+	<property name="Extends" value="meleeHandAnimalZombieBear"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="70"/>
+		<property name="DamageBlock" value="180"/>
+	</property>
+	<effect_group name="meleeHandAnimalZombieBearFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="40"/>  A16 1.5 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="600"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="800"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="2000"/><!--AbrasionFeral-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieHazMat">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="9"/>
+	<effect_group name="meleeHandZombieHazMat" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="500"><!--InfectionSpecialHazmatReg-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieHazMatFeral">
+	<property name="Extends" value="meleeHandZombieHazMat"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="9"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="24"/>
+	</property>
+	<effect_group name="meleeHandZombieHazMatFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="500"><!--InfectionSpecialHazmatFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieWorker">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="9"/>
+	<property class="Action0">
+		<property name="DamageBlock" value="40"/>
+	</property>
+	<effect_group name="meleeHandZombieWorker" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="100"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="500"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieWorkerFeral">
+	<property name="Extends" value="meleeHandZombieWorker"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="9"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="120"/>
+	</property>
+	<effect_group name="meleeHandZombieWorkerFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="200"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="600"/><!--AbrasionFeral-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieFootballPlayer">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="9"/>
+	<effect_group name="meleeHandZombieFootballPlayer" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="100"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="500"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieFootballPlayerFeral">
+	<property name="Extends" value="meleeHandZombieFootballPlayer"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="9"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="24"/>
+	</property>
+	<effect_group name="meleeHandZombieFootballPlayerFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="200"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="600"/><!--AbrasionFeral-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieStripper">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="8"/>
+	</property>
+	<effect_group name="meleeHandZombieStripper" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="100"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="500"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<item name="meleeHandZombieStripperFeral">
+	<property name="Extends" value="meleeHandZombieStripper"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="16"/>
+		<property name="DamageBlock" value="24"/>
+	</property>
+	<effect_group name="meleeHandZombieStripperFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="200"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="600"/><!--AbrasionFeral-->
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalCoyote">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value=".7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="1.4"/>
+		<property name="DamageEntity" value="10"/>
+		<property name="DamageBlock" value="6"/>
+	</property>
+	<effect_group name="meleeHandAnimalCoyote" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>  A16 .7 -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalZombieVulture">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value=".7"/> <!-- obsolete if rounds per minute exists -->
+		<property name="DamageEntity" value="8"/>
+		<property name="DamageBlock" value="8"/>
+	</property>
+	<effect_group name="meleeHandAnimalZombieVulture" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="500"><!--InfectionRadiated-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1000"/><!--AbrasionRadiated-->
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalZombieVultureRadiated">
+	<property name="Extends" value="meleeHandAnimalZombieVulture"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="Delay" value=".7"/>
+		<property name="DamageEntity" value="10"/>
+		<property name="DamageBlock" value="32"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Vomit"/>
+		<property name="Hitmask_override" value="Arrow"/>
+		<property name="Delay" value=".5"/>
+		<property name="Infinite_ammo" value="true"/>
+		<property name="Magazine_items" value="ammoProjectileVultureVomit"/>
+		<property name="Sound_warning" value="vulturevomitwarning"/>
+		<property name="Sound_start" value="vulturevomitattack"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_reload" value=""/>
+	</property>
+	<effect_group name="meleeHandAnimalZombieVulture" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="2"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="15"/>
+		<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+		<passive_effect name="MaxRange" operation="base_set" value="50"/>
+
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="600"><!--InfectionRadiated-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1200"/><!--AbrasionRadiated-->
+	</effect_group>
+</item>
+
+<item name="ammoProjectileVultureVomit">
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Vomit/vomitBulbPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="DamageEntity" value="15"/>
+		<property name="DamageBlock" value="12"/>
+		<property name="Explosion.ParticleIndex" value="7"/>
+		<property name="Velocity" value="13"/>
+		<property name="FlyTime" value="6"/>
+		<property name="LifeTime" value="8"/>
+		<property name="CollisionRadius" value=".5"/>
+		<property name="Buff" value="buffInfectionCatch"/>
+	</property>
+	<effect_group name="ammoProjectileVultureVomit" tiered="false">
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="600"><!--InfectionRadiated-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1200"/><!--AbrasionRadiated-->
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalSnake">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="55"/>
+	<property class="Action0">
+		<property name="Delay" value="2.5"/>
+		<property name="Range" value="1.2"/>
+		<property name="DamageEntity" value="10"/>
+		<property name="DamageBlock" value="2"/>
+	</property>
+	<effect_group name="meleeHandAnimalSnake" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/>  A16 .8 -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+	</effect_group>
+	<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+</item>
+
+<item name="meleeHandAnimalWolf">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value=".6"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="1.7"/>
+		<property name="DamageEntity" value="14"/>
+		<property name="DamageBlock" value="16"/>
+	</property>
+	<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/>  A16 .7 -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="200"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+	</effect_group>
+</item>
+
+<item name="meleeHandAnimalDireWolf">
+	<property name="Extends" value="meleeHandAnimalWolf"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="Delay" value=".8"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="2.2"/>
+		<property name="DamageEntity" value="22"/>
+		<property name="DamageBlock" value="28"/>
+	</property>
+	<effect_group name="meleeHandAnimalWolf" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+	</effect_group>
+</item>
+
+<item name="meleeHandBossGrace">
+	<property name="Extends" value="meleeHandMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="35"/>
+	<property class="Action0">
+		<property name="Delay" value=".85"/>
+		<property name="Range" value="3.4"/>
+		<property name="Sphere" value=".2"/>
+		<property name="DamageEntity" value="35"/>
+		<property name="DamageBlock" value="100"/>
+	</property>
+	<effect_group name="meleeHandAnimalBear" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="StressedCounter" operation="add" value="300"><!--StressedRegular-->
+			<requirement name="CVarCompare" target="other" cvar="StressedCounter" operation="GT" value="0"/></triggered_effect>
+	</effect_group>
+</item>
+
+</insertAfter>
+
+	
+
+
+</StressedOut>
