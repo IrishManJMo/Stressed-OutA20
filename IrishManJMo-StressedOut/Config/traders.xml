@@ -44,26 +44,31 @@
 <append xpath="//trader_item_group[@name='modAllT1SecretStash']" >
 	<item name="Indica Joint" count="1,2"/>
 	<item name="Sativa Joint" count="1,2"/>
+	<item name="A Nice Relaxing Book" count="1"/>
 </append>
 
 <append xpath="//trader_item_group[@name='modAllT2SecretStash']" >
 	<item name="Indica Joint" count="1,3"/>
 	<item name="Sativa Joint" count="1,3"/>
+	<item name="A Nice Relaxing Book" count="1"/>
 </append>
 
 <append xpath="//trader_item_group[@name='modAllT3SecretStash']" >
 	<item name="Indica Joint" count="2,4"/>
 	<item name="Sativa Joint" count="2,4"/>
+	<item name="A Nice Relaxing Book" count="1"/>
 </append>
 
 <append xpath="//trader_item_group[@name='modAllT4SecretStash']" >
 	<item name="Indica Joint" count="3,7"/>
 	<item name="Sativa Joint" count="3,7"/>
+	<item name="A Nice Relaxing Book" count="1,2"/>
 </append>
 
 <append xpath="//trader_item_group[@name='modAllT5SecretStash']" >
 	<item name="Indica Joint" count="3,10"/>
 	<item name="Sativa Joint" count="3,10"/>
+	<item name="A Nice Relaxing Book" count="1,2"/>
 </append>
 
 

@@ -457,20 +457,20 @@
 		</effect_group>
 
 		<effect_group name="main loop">
-			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="stressedCounter" operation="add" value="2.25"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="stressedCounter" operation="add" value="1.75"/>
 
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".dummy" operation="set" value="@$critHitNaturalHealingRate"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".dummy" operation="divide" value="4"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="stressedCounter" operation="subtract" value="@.dummy"/>
 
-			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="stressedCounter" operation="add" value="-24">
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="stressedCounter" operation="add" value="-10">
 				<requirement name="CVarCompare" cvar="$stressedCureCounter" operation="GT" value="0"/>
 			</triggered_effect>
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="stressedCounter" operation="set" value="0">
 				<requirement name="CVarCompare" cvar="stressedCounter" operation="LT" value="0"/>
 			</triggered_effect>
 
-			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$stressedCureCounter" operation="add" value="-8">
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$stressedCureCounter" operation="add" value="-4">
 				<requirement name="CVarCompare" cvar="$stressedCureCounter" operation="GT" value="0"/>
 			</triggered_effect>
 			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$stressedCureCounter" operation="set" value="0">
@@ -574,7 +574,7 @@
 		<stack_type value="ignore"/>
 		<duration value="1.1"/>
 		<effect_group>
-			<passive_effect name="BuffBlink" operation="base_add" value="2" tags="buffstressed01GetBetter,buffstressed01Untreated,buffstressed02GetBetter,buffstressed02Untreated,buffstressed03GetBetter,buffstressed03Untreated,buffstressed04"/>
+			<passive_effect name="BuffBlink" operation="base_add" value="1.25" tags="buffstressed01GetBetter,buffstressed01Untreated,buffstressed02GetBetter,buffstressed02Untreated,buffstressed03GetBetter,buffstressed03Untreated,buffstressed04"/>
 		</effect_group>
 	</buff>
 
@@ -797,7 +797,7 @@
 			<stack_type value="ignore"/>
 			<duration value="3"/>
 			<effect_group>
-			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="StressedCounter" operation="add" value="20">
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="StressedCounter" operation="add" value="10">
 			</triggered_effect>
 			</effect_group>
 		</buff>

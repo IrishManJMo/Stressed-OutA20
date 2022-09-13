@@ -31,7 +31,7 @@
 		</append>-->
 		
 		<append xpath="/lootcontainers/lootcontainer[@id='45']">
-		<item group="craftbeers" prob=".15" count="1,2"/>
+		<item group="craftbeers" prob=".2" count="1,2"/>
 		</append>
 		
 		<append xpath="/lootcontainers/lootcontainer[@id='52']">
